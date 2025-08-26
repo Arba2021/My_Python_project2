@@ -1,16 +1,16 @@
 # Password Fortress & Generator
 
 <div align="center">
+  <pre>
   ██████╗  █████╗ ███████╗███████╗██╗    ██╗ ██████╗ ██████╗ ██████╗
   ██╔══██╗██╔══██╗██╔════╝██╔════╝██║    ██║██╔═══██╗██╔══██╗██╔══██╗
   ██████╔╝███████║███████╗███████╗██║ █╗ ██║██║   ██║██████╔╝██║  ██║
   ██╔═══╝ ██╔══██║╚════██║╚════██║██║███╗██║██║   ██║██╔══██╗██║  ██║
   ██║     ██║  ██║███████║███████║╚███╔███╔╝╚██████╔╝██║  ██║██████╔╝
   ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝ ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝
-
-🛡️ Password Fortress & Generator 🛡️
-A Command-Line Powerhouse for Crafting Unbreakable Passwords 🚀
-
+  </pre>
+  🛡️ <strong>Password Fortress & Generator</strong> 🛡️  
+  A Command-Line Powerhouse for Crafting Unbreakable Passwords 🚀
 </div>
 
 <p align="center">
@@ -19,19 +19,11 @@ A Command-Line Powerhouse for Crafting Unbreakable Passwords 🚀
   <img src="https://img.shields.io/badge/Security-SHA--256%20Hashing-red?style=for-the-badge&logo=lock" alt="Security">
 </p>
 
-<p align="center">
-  Welcome to <strong>Password Fortress</strong>, a slick and secure command-line password generator built with Python. Forge passwords that laugh in the face of hackers! With entropy calculations, SHA-256 hashing, and customizable options, it’s your ultimate weapon for creating bulletproof passwords. 😎
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/g25E032.gif" alt="Terminal Animation" width="700"/>
-</p>
-
 ## 🌟 Features
 
 * **Customizable Character Sets**: Uppercase, lowercase, digits, symbols.
 * **Entropy Insights**: Measures password strength in bits with `log2(pool_size ^ length)`.
-* **Strength Feedback**: Labels as <font color="red">Weak</font>, <font color="orange">Medium</font>, or <font color="green">Strong</font>.
+* **Strength Feedback**: Labels as Weak, Medium, or Strong.
 * **Stealth Mode**: Hide passwords in the console for extra security.
 * **Secure Hashing**: Save passwords as SHA-256 hashes.
 * **Flexible Outputs**: Export to `.txt`, `.csv`, or `.json`.
@@ -42,8 +34,8 @@ A Command-Line Powerhouse for Crafting Unbreakable Passwords 🚀
 
 ### Prerequisites
 
-* **Python 3.10+**
-* Install required package:
+* Python 3.10+
+* Install required packages:
 
 ```bash
 pip install colorama
@@ -81,11 +73,11 @@ Hash passwords before saving for security? (y/n): y
 
 ## 🔒 Security Tips
 
-* **Hash It**: Always hash passwords when saving. SHA-256 is one-way.
-* **No Plain Text**: Never save unhashed passwords.
-* **Entropy Goals**: Aim for >80 bits for elite security.
-* **Password Managers**: Store generated passwords in encrypted managers.
+* Hash passwords when saving (SHA-256 one-way).
+* Never save unhashed passwords.
+* Aim for >80 bits of entropy.
+* Store passwords in encrypted password managers.
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+MIT License
