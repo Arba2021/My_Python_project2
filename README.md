@@ -22,7 +22,8 @@
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/g25E032.gif" alt="Terminal Animation" width="700"/>
+  <!-- <img src="https://i.imgur.com/g25E032.gif" alt="Terminal Animation" width="700"/> -->
+  <!-- GIF removed due to unavailability. Replace with a new URL when available! -->
 </p>
 
 ## 🌟 Why This Rocks
@@ -42,29 +43,3 @@
 - Install the required package:
   ```bash
   pip install colorama
-
- Example Outputbash
-
-Welcome to the Advanced Password Generator
-How many passwords? 3
-Length of each password? 12
-Show passwords in console? (y/n): y
---- Character Set Selection ---
-Enter choice: (a = all, c = custom): a
-Include custom prefix? (y/n): y
-Enter your custom prefix: Secure
-
---- Generated Passwords ---
-Password 1: SecureK7@mP9 -> Strong (Entropy: 71.45 bits)
-Password 2: Securex#2jL$ -> Strong (Entropy: 71.45 bits)
-Password 3: Secure9nQz!v -> Strong (Entropy: 71.45 bits)
-
-Save passwords to a file? (txt/csv/json/none): json
-Hash passwords before saving for security? (y/n): y
-✅ Hashed passwords saved to passwords.json
-
- Security FirstHash It: Always hash passwords (y) when saving. SHA-256 is a one-way fortress—hackers can’t reverse it! 
-No Plain Text: Saving unhashed passwords is risky. The tool warns you to stay secure. 
-Entropy Goals: Aim for >80 bits for elite security. Longer passwords + diverse characters = win. 
-Password Managers: Use this tool to generate passwords, then store them in an encrypted manager.
-
